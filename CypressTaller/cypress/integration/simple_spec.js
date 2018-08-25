@@ -1,4 +1,4 @@
-/*describe('Los estudiantes login', function() {
+describe('Los estudiantes login', function() {
     it('Visits los estudiantes and fails at login', function() {
         cy.visit('https://losestudiantes.co')
         cy.contains('Cerrar').click()
@@ -24,7 +24,7 @@ describe('Crear cuenta', function() {
       cy.get('.cajaSignUp').contains('Registrarse').click()
       cy.contains('Verifica tu correo')
     })
-})*/
+})
 describe('Los estudiantes login correcto', function() {
     it('Login correcto', function() {
         cy.visit('https://losestudiantes.co')
